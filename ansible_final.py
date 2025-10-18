@@ -20,8 +20,3 @@ def showrun():
     else:
         return 'Error' 
 
-# --- (Optional) ส่วนสำหรับทดสอบไฟล์นี้เดี่ยวๆ ---
-if __name__ == "__main__":
-    print(f"Running showrun()...")
-    status = showrun()
-    print(f"Status returned: {status}")
