@@ -33,7 +33,7 @@ if MY_STUDENT_ID.startswith("<!!!"):
 
 # Defines a variable that will hold the roomId
 roomIdToGetMessages = (
-    "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL1JPT00vN2FhMjYxMjAtYWMxOC0xMWYwLTk0YWItYjdjZWNhYzcxMWEz"
+    "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL1JPT00vYmQwODczMTAtNmMyNi0xMWYwLWE1MWMtNzkzZDM2ZjZjM2Zm"
 )
 
 last_processed_message_id = None
