@@ -1,5 +1,5 @@
 [routers]
-CSR1000v ansible_host=192.168.1.101
+CSR1kv ansible_host=10.0.15.61
 
 [routers:vars]
 ansible_user=admin

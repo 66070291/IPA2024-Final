@@ -2,7 +2,7 @@ from ncclient import manager
 import xmltodict
 
 m = manager.connect(
-    host="192.168.1.101",
+    host="10.0.15.61",
     port=830,
     username="admin",
     password="cisco",

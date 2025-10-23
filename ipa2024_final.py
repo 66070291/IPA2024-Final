@@ -33,7 +33,7 @@ if MY_STUDENT_ID.startswith("<!!!"):
 
 # Defines a variable that will hold the roomId
 roomIdToGetMessages = (
-    "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL1JPT00vYmQwODczMTAtNmMyNi0xMWYwLWE1MWMtNzkzZDM2ZjZjM2Zm"
+    "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL1JPT00vN2FhMjYxMjAtYWMxOC0xMWYwLTk0YWItYjdjZWNhYzcxMWEz"
 )
 
 last_processed_message_id = None
@@ -191,7 +191,7 @@ while True:
             # --- แก้ไขตรรกะตรงนี้ ---
             if command == "showrun" and responseMessage == 'ok':
 
-                filename = f"show_run_{MY_STUDENT_ID}_CSR1000v.txt"
+                filename = f"show_run_{MY_STUDENT_ID}_CSR1kv.txt"
                 
                 try:
                     fileobject = open(filename, 'rb') 

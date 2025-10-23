@@ -2,7 +2,7 @@ from netmiko import ConnectHandler
 from pprint import pprint
 
 # --- 1. กรอก IP และ Device Type ---
-device_ip = "192.168.1.101" 
+device_ip = "10.0.15.61" 
 username = "admin"
 password = "cisco"
 
